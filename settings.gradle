@@ -1,3 +1,4 @@
 rootProject.name = 'phillips-cinema'
 include 'business'
+include 'web'
 

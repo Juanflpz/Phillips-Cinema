@@ -1,0 +1,40 @@
+plugins {
+    id 'org.joinfaces' version '4.7.3'
+}
+
+repositories {
+    mavenCentral()
+    maven { url "https://repo.joinfaces.org" }
+}
+
+dependencies {
+    implementation project(":business")
+    implementation 'org.joinfaces:jsf-spring-boot-starter'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.primefaces:primefaces:11.0.0'
+}
+
+test {
+    useJUnitPlatform()
+}
+/*
+plugins {
+    id 'java'
+}
+
+group = 'phillips.cinema'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+test {
+    useJUnitPlatform()
+}
+*/

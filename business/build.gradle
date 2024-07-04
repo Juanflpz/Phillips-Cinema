@@ -1,0 +1,14 @@
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    runtimeOnly 'mysql:mysql-connector-java'
+    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-mail
+    //originally it comes with the version written
+    //but taking it away makes the implementation to pick the latest one
+    implementation 'org.springframework.boot:spring-boot-starter-mail'
+    implementation 'com.google.zxing:core:3.5.3'
+    implementation 'com.google.zxing:javase:3.5.3'
+    implementation 'com.cloudinary:cloudinary-http44:1.38.0'
+}
+test {
+    useJUnitPlatform()
+}

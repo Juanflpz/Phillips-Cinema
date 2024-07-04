@@ -102,6 +102,6 @@ public class ClientServiceTest {
     @Test
     @Sql("classpath:dataset.sql")
     public void sendEmailTest() {
-        emailService.sendEmail("juanfelipelopez55@gmail.com", "Testing service", "hellooooooooooooooooooooooooo");
+        emailService.sendEmail("isamejvilla@gmail.com", "TE AMO", "PICOSSSSSSSSSSSSSSSSSSSSSS");
     }
 }

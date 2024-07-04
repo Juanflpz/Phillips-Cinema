@@ -1,1 +1,1 @@
-CLASE 14 Servicios en Spring Boot (10 oct 2022) MINUTO 32
+CLASE 15 Configuración de JSF (19 oct 2022) MINUTO 0
